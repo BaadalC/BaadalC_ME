@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "ICS671",
+    "owner": "me",
+    "description": "Diagram"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "ICs670",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "me"
+  }
+}
