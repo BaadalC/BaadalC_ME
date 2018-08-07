@@ -152,14 +152,19 @@
               "target": {
                 "id": "47ea2b22-bfb9-4226-90ac-f46277007345"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 352,
+                  "y": 200
+                }
+              ],
               "id": "5750bbc5-f8c5-41ca-b057-02673dfffdb7",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 5",
+                      "text": "retweet/reply/fav",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -167,40 +172,6 @@
                 }
               ],
               "z": 6,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "61368154-41b6-4089-995c-fe650c9c642e"
-              },
-              "target": {
-                "id": "eb671faf-00e9-4302-a3bd-a0697be68b42"
-              },
-              "vertices": [],
-              "id": "9f545deb-2959-49e0-8ec9-9a35f5896cdb",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 7",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 8,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -229,7 +200,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 8",
+                      "text": "Stream listen",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -251,21 +222,29 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 539,
-                "y": 320
+                "x": 537,
+                "y": 321
               },
               "target": {
-                "x": 305,
-                "y": 325
+                "x": 306,
+                "y": 318
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 419,
+                  "y": 307
+                }
+              ],
               "id": "8737a9a8-bf90-4f2e-8432-b2c17ed8f4f0",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.5539528887756981,
+                    "offset": -0.2896005678921938
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 10",
+                      "text": "Read Rule",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -335,7 +314,10 @@
               "id": "eddcd13b-5afd-4d1a-9efd-b197d48267cf",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.3836362349231826,
+                    "offset": 41.32718703011051
+                  },
                   "attrs": {
                     "text": {
                       "text": "Bot Engine Logs",
@@ -414,12 +396,140 @@
               "id": "4239a00d-360f-4cdb-a7fa-257d4a0789e4",
               "z": 15,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "39348abb-dbaf-4e13-93c6-e4e363675050"
+              },
+              "target": {
+                "x": 558,
+                "y": 331
+              },
+              "vertices": [
+                {
+                  "x": 474,
+                  "y": 345
+                }
+              ],
+              "id": "b761f353-9803-4fb4-be57-4630c407c94a",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Retrieve message",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 170,
+                "y": 348
+              },
+              "target": {
+                "x": 273,
+                "y": 226
+              },
+              "vertices": [
+                {
+                  "x": 248,
+                  "y": 377
+                },
+                {
+                  "x": 351,
+                  "y": 302
+                }
+              ],
+              "id": "a1410ac0-945c-4327-8027-20d7a22bab9f",
+              "z": 17,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 590,
+                "y": 366
+              },
+              "target": {
+                "x": 556,
+                "y": 217
+              },
+              "vertices": [
+                {
+                  "x": 510,
+                  "y": 345
+                },
+                {
+                  "x": 462,
+                  "y": 269
+                }
+              ],
+              "id": "193ce48e-3c76-4bbd-9709-118c4b335e01",
+              "z": 18,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 313,
+                "y": 274
+              },
+              "target": {
+                "id": "eb671faf-00e9-4302-a3bd-a0697be68b42"
+              },
+              "vertices": [],
+              "id": "6bc8613a-9553-4e50-bc0a-0124dbfc732d",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.44715728764328827,
+                    "offset": -12.213502338621765
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Update rule status",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 792.0051879882812
+          "width": 1555.5902099609375
         }
       }
     ],
